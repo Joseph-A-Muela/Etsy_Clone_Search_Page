@@ -1,0 +1,52 @@
+
+#container1 {
+  webkit-column-count: 3;
+  	height: 148.5em;
+  	width: 49em;
+  webkit-columns: 5em;
+  	margin: 5em;
+}
+
+.listing > a {
+	text-decoration: none;
+	font-size: 0.7em;
+	color: black;
+	margin: .5em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.container2 {
+	text-align: left;
+	width: 14.125em;
+ 	height: 16.375em;
+ 	background-color: white;
+ 	border: .1em solid #9A9A9A;
+ 	margin: 1em;
+ 	float: right;
+ 	overflow: hidden;
+}
+
+.listing {
+	text-decoration: none;
+  	color: #9A9A9A;
+  	font-size: 0.7em;
+  	margin: 0.5em;
+}
+
+.price {
+  	font-size: 0.7em;
+  	color: #78C042;
+ 	float: right;
+ 	margin: 0.5em;
+}
+
+img {
+ 	width: 14.125em;
+ 	height: 11.25em;
+}
+
+
