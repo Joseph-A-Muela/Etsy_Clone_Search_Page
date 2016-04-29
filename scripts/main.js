@@ -1,7 +1,7 @@
 var pullData = function(data) {
 
 	var container1 = $('#userData');
-	data.results.forEach(function(val, i, arr) {
+	data.results.forEach(function(val) {
 		var container2 = $('<div class="container2"></div>');
 		var images = $('<img>', {'src': val.Images[0].url_170x135});
 		var imageLink = $('<a></a>', {href: val.url});
@@ -20,7 +20,6 @@ var pullData = function(data) {
 
 		container1.append(container2);
 	});
-
 }
 
 var results = {

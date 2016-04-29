@@ -2,11 +2,53 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body>
-	<section id="userData"></section>
+	<nav>
+		<div class="userInputSection">
+		<h1 class="etsyHeader">Etsy</h1>
+			<div class="headerAndInputContainer">
+				<form class="inputAndBtnContainer">
+					<input type="text" placeholder="Search for an item" class="userInput"></input><button class="userSearchBtn"><div href="#just for show" class="glyphicon glyphicon-search"></div>Search</button>
+				</form>
+			</div>
+			<div class="userLinksContainer">
+				<div class="userSell">Sell</div>
+				<div class="userRegister">Register</div>
+				<div class="userSignin">Sign In</div>
+				<div class="glyphicon glyphicon-shopping-cart"></div>
+			</div>
+		</div>
+	</nav>
+	<section class="container-fluid dataSection">
+		<div class="searchOptionsContainer">
+			<div class="searchOptions1">
+				<ul class="searchCategories">Categories:
+					<a class="category" href="#"><li>Home And Living</li></a>
+					<a class="category" href="#"><li> Art And Collectibles</li></a>
+					<a class="category" class="category" href="#"><li>Kitchen And Dining</li></a>
+					<a class="category" class="category" href="#"><li>Home Decor</li></a>
+					<a class="category" href="#"><li>Lighting</li></a>
+					<a class="category" href="#"><li>Food And Drink</li></a>
+					<a class="category" href="#"><li>Furniture</li></a>
+					<a class="category" href="#"><li>Office</li></a>
+					<a class="category" href="#"><li>Outdoor And Gardening</li></a>
+					<a class="category" href="#"><li>Storage And Gardening</li></a>
+					<a class="category" href="#"><li>Bathroom</li></a>
+					<a class="category" href="#"><li>Bedding</li></a>
+					<a class="category" href="#"><li>Home Appliances</li></a>
+					<a class="category" href="#"><li>Cleaning</li></a>
+				</ul>
+			</div>
+			<div class="searchOptions2"></div>
+		</div>
+		<div class="row userDataContainer">
+			<div id="userData"></div>
+		</div>
+	</section>
 	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="./scripts/main.js"></script>
 </body>
