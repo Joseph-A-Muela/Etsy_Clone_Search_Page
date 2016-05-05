@@ -18,13 +18,10 @@ body {
 	margin-top: 0;
 }
 
-.headerAndInputContainer {
-	display: inline-block;
-}
-
 .inputAndBtnContainer {
 	display: inline-block;
 	height: 2.325em;
+
 }
 
 .userInput {
