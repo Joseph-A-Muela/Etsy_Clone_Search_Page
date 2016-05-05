@@ -1,4 +1,5 @@
 var pullData = $('form').on('submit', function(e) {
+	$('#userData').empty();
 	e.preventDefault();
 	var userInput = $('input').val();
 	var url = 'https://api.etsy.com/v2/listings/active.js?api_key=hvcbro8gft92chaafb1xkojr&keywords='+userInput+'&includes=Images,Shop'
@@ -33,7 +34,9 @@ var pullData = $('form').on('submit', function(e) {
 	    }
 	};
 	$.ajax(results);
+	$('input').val('');
 });
-$('input').reset();
+
+
 
 
