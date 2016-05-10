@@ -30,7 +30,7 @@ var pullData = $('form').on('submit', function(e) {
 	        console.log(err);
 	    },
 	    complete: function() {
-	        console.log('I got a response');
+	        console.log('Success function is working properly.');
 	    }
 	};
 	$.ajax(results);
